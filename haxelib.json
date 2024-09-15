@@ -1,0 +1,20 @@
+{
+    "name": "hxButt",
+    "url": "https://github.com/nebulazorua/hxbutt/",
+    "license": "MIT",
+    "tags": [
+        "haxe",
+        "cpp",
+        "adult",
+        "buttplug.io"
+    ],
+    "description": "Buttplug.io support for the Haxe language, because funny.",
+    "version": "1.0.0",
+    "releasenote": "Initial release.\nOnly has support for the Vibrate scalar command at the moment. More will come eventually:tm:",
+    "contributors": [
+        "Nebula_Zorua"
+    ],
+    "dependencies": {
+        "hxWebSockets": "1.4.0"
+    }
+}
