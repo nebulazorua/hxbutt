@@ -6,7 +6,8 @@
         "haxe",
         "cpp",
         "adult",
-        "buttplug.io"
+        "buttplug.io",
+        "integration"
     ],
     "description": "Buttplug.io support for the Haxe language, because funny.",
     "version": "1.0.0",
