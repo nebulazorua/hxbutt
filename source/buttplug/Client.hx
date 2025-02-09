@@ -6,7 +6,6 @@ import buttplug.Message.DeviceRemovedMessage;
 import buttplug.Message.MessageField;
 import buttplug.Message.MessageType as BMessageType;
 import buttplug.Message.ServerInfoMessage;
-import flixel.FlxG;
 import haxe.Exception;
 import haxe.Json;
 import haxe.ds.StringMap;
@@ -142,7 +141,7 @@ class Client
 		}
 		catch (e:Exception)
 		{
-			FlxG.log.warn('Couldn\'t connect to Buttplug server at "${ip}" for some reason or another. Are you sure one is running?');
+			trace('WARNING: Couldn\'t connect to Buttplug server at "${ip}" for some reason or another. Are you sure one is running?');
 		}
 
 		return this;
